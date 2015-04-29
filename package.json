@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-simple-test",
+  "version": "1.0.0",
+  "description": "Simple coding test for node.js and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adityabansod/nodejs-simple-test"
+  },
+  "author": "Aditya Bansod (http://www.adityabansod.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adityabansod/nodejs-simple-test/issues"
+  },
+  "homepage": "https://github.com/adityabansod/nodejs-simple-test",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
