@@ -40,8 +40,6 @@ if(process.env.NODE_ENV==='development'){
 }
 
 app.get('/', function(request, response, next) {
-	// TODO per README.md
-	console.log('TODO: received a request');
     response.render('index');
 });
 
@@ -62,7 +60,6 @@ app.post('/', function(req, res){
             });
         }
         else{
-            console.log('I am in');
             res.render('thankyou', {thankyou: 'Thank you. Our team will contact you within next 48hrs'});
         }
 
@@ -70,6 +67,6 @@ app.post('/', function(req, res){
 });
 
 http.createServer(app).listen(app.get('port'), function(){
-	console.log('nodejs-simple-test started at '+ port + ' ' +new Date());
-	console.log('please check http://localhost:'+port);
+    console.log('nodejs-simple-test started at '+ port + ' ' +new Date());
+    console.log('please check http://localhost:'+port);
 });
